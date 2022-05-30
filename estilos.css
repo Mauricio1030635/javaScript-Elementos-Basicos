@@ -1,0 +1,17 @@
+*{  padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.padre {
+    border: 1px solid red; 
+    margin: auto;   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    gap: 2px;
+}
+
+
+.item{    
+    border:1px solid blue; 
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <h1 class="text-primary text-center">Inicio</h1>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <form id="formularios" method="post">
+                    <label for="">Nombre</label>
+                    <input type="text" class="form-control" name="Nombre" id="Nombre">
+                    <label for="">Precio</label>
+                    <input type="text" class="form-control"  name="Precio" id="Precio">
+                    <label for="">Año</label>
+                    <input type="text" class="form-control" name="year" id="year">
+                    <br>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-dark" id="btnAgregar" name="btnAgregar">Agregar</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-md-8" id="contenedor"></div>
+            
+        </div>
+
+
+    </div>
+    <script src="./java.js" type="module"></script>
+</body>
+</html>
